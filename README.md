@@ -92,7 +92,7 @@ You will be prompted for your query, and the assistant will answer according to 
 
 ## Customization
 
-- Change assistant/user names by editing the respective variables at the top of `main.py`.
+- Change assistant/user names by editing the respective variables at the top of `Chatbot.py`.
 - Edit the system prompt string to tweak AI instructions or response policies.
 
 ***
