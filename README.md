@@ -11,7 +11,7 @@ project-root/
     └── Chatlog.json
 ```
 
-- `main.py`: Main application script with the chatbot logic.
+- `Chatbot.py`: Main application script with the chatbot logic.
 - `Data/Chatlog.json`: Stores chat logs and message history.
 
 ***
@@ -51,7 +51,7 @@ pip install groq python-dotenv
 
 3. **Ensure the directory structure**:
 
-    - `main.py` is in your main project folder.
+    - `Chatbot.py` is in your main project folder.
     - `Data/` folder exists at the same level, with an (initially empty) `Chatlog.json` file.
 
 ***
@@ -61,7 +61,7 @@ pip install groq python-dotenv
 Run the chatbot from the terminal:
 
 ```bash
-python main.py
+python Chatbot.py
 ```
 
 You will be prompted for your query, and the assistant will answer according to instructions.
@@ -82,7 +82,7 @@ You will be prompted for your query, and the assistant will answer according to 
 
 ## Best Practices
 
-- Keep `main.py` clean and modular. Add utility functions for new features.
+- Keep `Chatbot.py` clean and modular. Add utility functions for new features.
 - Regularly back up or rotate `Chatlog.json` if running for long periods.
 - If targeting non-English users, remember: the bot always replies in English as per default instructions.
 - Avoid outputting time unless specifically requested by the user (enforced by the system prompt).
